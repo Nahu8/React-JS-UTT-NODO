@@ -1,8 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">UTT NODO</a>
@@ -19,7 +14,3 @@ function App() {
     </div>
   </div>
 </nav>
-  );
-}
-
-export default App;
