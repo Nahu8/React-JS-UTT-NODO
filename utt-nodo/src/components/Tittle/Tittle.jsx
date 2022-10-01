@@ -1,4 +1,5 @@
-const tittle = () => {
+import React from 'react'
+const Tittle = () => {
     return(
         <>
             <h1>
@@ -7,4 +8,4 @@ const tittle = () => {
         </>
     );
 }
-export default tittle;
+export default Tittle;

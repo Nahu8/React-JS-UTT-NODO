@@ -1,8 +1,8 @@
-import { Component } from "react";
+import React from 'react'
 
-class footer extends Component{
-    render(){
-        return(
+const footer = () => {
+        return (
+        <>
             <footer class="text-center text-lg-start bg-gray text-muted">
 
                 <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -109,7 +109,8 @@ class footer extends Component{
                 </div>
 
             </footer>
+        </>
         );
     }
-}
+
 export default footer;
